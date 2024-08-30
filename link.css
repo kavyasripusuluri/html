@@ -1,0 +1,60 @@
+*
+{
+    margin:0 px;
+    padding:0 px;
+    box-sizing:border-box;
+}
+body
+{
+    font-family : sans-serif;
+    background-color: yellow;
+}
+.container
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+
+}
+.section-1
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.section-1-art-2-img
+{
+    width: 100%;
+    border-radius: 15px;
+}
+.section-1-art-1-head
+{
+    letter-spacing: 1px;
+    font-size: 32px;
+    line-height: 0.8;
+    margin-bottom: 20px;
+}
+.section-1-art-1-par
+{
+    color:gold;
+     margin-bottom: 50px;
+
+}
+section-1-art-1-btn
+{
+    background-color: blue;
+    display: inline;
+    padding: 12px 16px;
+    border-radius: 25px;
+    color: brown;
+
+}
+section-1-art-1-btn:hover
+{
+    background-color: palegreen;
+    color:chocolate;
+    cursor: all-scroll;
+    dispaly: inline;
+}
